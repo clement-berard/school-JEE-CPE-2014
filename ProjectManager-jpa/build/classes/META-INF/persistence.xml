@@ -5,12 +5,12 @@
 	<persistence-unit name="sampleProject-jpa">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<jta-data-source>java:jboss/datasources/projectdb</jta-data-source>
-		<class>com.irc.jee.model.Employee</class>
+		<class>com.irc.jee.model.TEEmployeeEmp</class>
 
 		<properties>
 			<property name="hibernate.show_sql" value="false" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"></property>
-			<property name="hibernate.connection.url" value="dbc:mysql://localhost:3306/JEE-database"></property>
+			<property name="hibernate.connection.url" value="dbc:mysql://localhost:3306/JEE_database"></property>
 			<property name="hibernate.connection.username" value="root"></property>
 			<property name="hibernate.connection.password" value="root"></property>
 		</properties>
