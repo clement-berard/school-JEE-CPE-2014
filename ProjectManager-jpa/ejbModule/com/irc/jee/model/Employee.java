@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Entity
 @Table(name="t_e_employee_emp")
 @NamedQuery(name="TEEmployeeEmp.findAll", query="SELECT t FROM TEEmployeeEmp t")
-public class TEEmployeeEmp implements Serializable {
+public class Employee implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -33,7 +33,7 @@ public class TEEmployeeEmp implements Serializable {
 	@Column(name="EMP_LASTNAME")
 	private String empLastname;
 
-	public TEEmployeeEmp() {
+	public Employee() {
 	}
 
 	public int getEmpId() {

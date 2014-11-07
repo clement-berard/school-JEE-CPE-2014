@@ -5,7 +5,7 @@
 	<persistence-unit name="sampleProject-jpa">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<jta-data-source>java:jboss/datasources/projectdb</jta-data-source>
-		<class>com.irc.jee.model.TEEmployeeEmp</class>
+		<class>com.irc.jee.model.Employee</class>
 
 		<properties>
 			<property name="hibernate.show_sql" value="false" />
